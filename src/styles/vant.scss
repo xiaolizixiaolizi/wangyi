@@ -1,0 +1,8 @@
+// 你又想只覆盖这个页面的 vant 样式，你就可在它的父级加一个 class，用命名空间来解决问题。
+.about-container {
+  /* 你的命名空间 */
+  .van-button {
+    /* vant-ui 元素*/
+    margin-right: 0px;
+  }
+}

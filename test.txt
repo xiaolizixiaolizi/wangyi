@@ -1,0 +1,13 @@
+wonders
+
+"scripts": {
+    "serve": "vue-cli-service serve --mode dev",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "prod": "vue-cli-service build --mode prod",
+    "test": "vue-cli-service build --mode test"
+  },
+
+.env.dev
+NODE_ENV="development"
+VUE_APP_BASE_URL="/api"
